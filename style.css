@@ -1,0 +1,81 @@
+body {
+	font-family: Tahoma, sans-serif;
+	background-image: #aaa url(fon2.jpg);
+	
+}
+
+.header {
+	background-color: #cc55ff;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.menu {
+	color: #363636;
+
+}
+
+.menu li {
+	text-align: left;
+	text-decoration: none;
+}
+
+.level-2 + .level-2 {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.level .level-1 {
+	text-transform: uppercase;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	background-color: #add;
+	text-shadow: 1px 1px 1px #000;
+	box-shadow: 1px 1px 1px #000;
+}
+
+h2 {
+	color: #363636;
+	text-indent: 10px;
+	letter-spacing: 1px;
+	line-height: 4em;
+	text-align: center;
+}
+
+h3, h4, h5, h6 {
+	text-align: center;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	background-color: #dee;
+	font-style: italic;
+}
+
+/*div {
+	height: 200px;
+	width: 50%;
+}*/
+
+table {
+	background-color: #cba;
+}
+
+table caption {
+	background-color: #aff;
+}
+
+.footer {
+	background-color: #a6e;
+}
